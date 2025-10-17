@@ -15,6 +15,11 @@ nav a:hover { background:#f3f4f6; }
 main { padding: 24px; max-width: 1100px; }
 footer { padding:16px; font-size:12px; color:#6b7280; border-top:1px solid #e5e7eb; }
 .tip { background:#f9fafb; border:1px solid #e5e7eb; padding:12px; border-radius:8px; }
+pre { background:#0b1020; color:#e6edf3; padding:12px; overflow:auto; border-radius:8px; }
+code { background:#f3f4f6; padding:2px 4px; border-radius:4px; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #e5e7eb; padding: 6px 8px; }
+h1,h2,h3 { scroll-margin-top: 80px; }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -38,7 +43,7 @@ footer { padding:16px; font-size:12px; color:#6b7280; border-top:1px solid #e5e7
 <a href="#modules/11_references.md">11 · References</a>
 <hr/>
 <strong>Data</strong>
-<a href="data/competitors.csv" target="_blank">competitors.csv</a>
+<a href="data/competitors_detailed.csv" target="_blank">competitors_detailed.csv</a>
 <a href="data/pricing_model.csv" target="_blank">pricing_model.csv</a>
 <div class="tip"><b>Tip:</b> Click any module — content loads here, nav stays visible.</div>
 </nav>
@@ -52,8 +57,9 @@ function setActive(href){navLinks.forEach(a=>a.classList.toggle('active',a.getAt
 async function loadMarkdown(path){
  try{const res=await fetch(path);if(!res.ok)throw new Error('HTTP '+res.status);
  const md=await res.text();contentEl.innerHTML=marked.parse(md);setActive('#'+path);window.scrollTo(0,0);}
- catch(e){contentEl.innerHTML='<p>Could not load <code>'+path+'</code>: '+e.message+'</p>';}}
-function route(){const hash=location.hash||'#README.md';const path=hash.replace(/^#/,'');loadMarkdown(path);}
+ catch(e){contentEl.innerHTML='<p>Could not load <code>'+path+'</code>: '+e.message+'</p>';}
+}
+function route(){const hash=location.hash||'#modules/01_vaults_101.md';const path=hash.replace(/^#/,'');loadMarkdown(path);}
 window.addEventListener('hashchange',route);route();
 </script>
 </body>

@@ -1,0 +1,8 @@
+Category,Project,Asset backing / strategy,Eligibility,Chains,Liquidity model,Fees (mgmt/perf/admin),Audits / security,Custody / keys,APIs / integrations
+RWA,Ondo OUSG,Tokenized US Treasuries via fund structure,Qualified,Ethereum + L2,Redemption windows,Fund/admin fees,Fund audits/disclosures,Custodians + TA,Dashboards; hooks
+RWA,BlackRock BUIDL (Securitize),Institutional MMF with $1 NAV token,QP,Ethereum,Daily with cut‑off,Fund/TA fees,Institutional controls,Custodians + TA,Securitize APIs
+DeFi Yield,Yearn yVaults,Multi‑strategy autocompounder,Public,Ethereum + multi,Anytime (strategy‑dependent),Mgmt + performance,Multiple audits,Multisig governance,Partner zaps
+DeFi Yield,Beefy Finance,Multichain autocompounder vaults,Public,Multi,Anytime,Performance fees,Audits per chain,Multisig,Chain integrations
+Asset Mgmt,Enzyme,Configurable on‑chain funds/treasuries,Managers,Ethereum/Polygon,Manager defined,Mgmt/perf; platform,Audited framework,Role‑based,SDK/APIs
+Custody,Safe,Multisig smart accounts,Teams/DAOs,EVM,N/A,N/A,Heavily audited,Multisig,Broad integrations
+Custody,Fireblocks,MPC custody + WaaS + policy engine,Institutions,Multi‑chain,N/A,Platform,Enterprise posture,MPC/HSM,APIs

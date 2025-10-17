@@ -1,4 +1,4 @@
-Vault Type,MgmtFee_bps,PerfFee_pct,Notes
-DeFi Yield,200,10,Withdrawal fee 0-50bps
-RWA,25,0,Admin/transfer fees
-Asset Mgmt,50,10,Platform SaaS tiered by TVL
+Vault Type,MgmtFee_bps,PerfFee_pct,WithdrawalFee_bps,Notes
+DeFi Yield,200,10,0,Autocompounders
+RWA Tokenized Fund,25,0,0,Admin/TA fees off‑chain
+Asset Mgmt (VaaS),50,10,0,Platform SaaS by TVL
