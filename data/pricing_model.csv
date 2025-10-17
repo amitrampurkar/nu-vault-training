@@ -1,0 +1,4 @@
+Vault Type,MgmtFee_bps,PerfFee_pct,OtherFeesNotes
+DeFi Yield,200,10,Withdrawal fee 0‑50bps
+RWA Tokenized Fund,25,0,Admin/TA fees charged at fund; token transfer fee 0‑10bps
+Asset Mgmt (Vault‑as‑a‑Service),50,10,Platform SaaS fee tiered by TVL
