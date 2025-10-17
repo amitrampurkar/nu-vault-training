@@ -1,8 +1,6 @@
 Category,Project,What it does,Chains,Monetization
-RWA,Ondo OUSG,Tokenized US Treasuries; daily accrual; qualified investors; integrates with BUIDL/other MMFs,Ethereum + L2s (bridged),Mgmt/other fund fees via underlying; protocol spreads
-RWA,BlackRock BUIDL (via Securitize),Tokenized MMF for qualified purchasers; $1 stable token NAV; onchain interest,Ethereum (+cross‑chain via Wormhole),Fund fees; transfer agent fees
-DeFi Yield,Yearn yVaults,Strategy vaults autocompounding across DeFi,Ethereum & multiple chains,Mgmt/performance fees
-DeFi Yield,Beefy Finance,Multi‑chain autocompounder; lending & LP vaults,Many chains,Performance fees (vault‑level)
-Asset Mgmt,Enzyme Vaults,Configurable on‑chain funds/treasuries; APIs; Vault‑as‑a‑Service,Ethereum/Polygon,Mgmt/perf; SaaS/infra fees
-Custody,Safe (Gnosis Safe),Multisig smart accounts; treasury ops; widely audited,Ethereum & EVM chains,Free protocol; partners’ fees
-Custody,Fireblocks (MPC),Institutional MPC custody & WaaS; policy engine; APIs,Multi‑chain,Platform/SaaS fees
+RWA,Ondo OUSG,Tokenized US Treasuries,Ethereum,Fund fees
+RWA,BlackRock BUIDL,Tokenized MMF for institutions,Ethereum,Fund fees
+DeFi Yield,Yearn yVaults,Autocompounding yield vaults,Multi-chain,Perf fees
+Asset Mgmt,Enzyme,Configurable onchain funds,Polygon,Mgmt/perf fees
+Custody,Safe,Multisig treasury platform,EVM,Free/partner fees
